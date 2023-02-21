@@ -77,4 +77,10 @@ border-spacing: 0;
 
 .menu button {
     margin-right: 80px;
+    width: 130px;
+    height: 48px;
+    border-radius: 28px;
+    background-color: var(--text-primary);
+    color: var(--card);
+    font-size: 16px;
 }
