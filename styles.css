@@ -91,3 +91,21 @@ border-spacing: 0;
     grid-template-columns: 1fr 1fr;
     margin: 80px;
 }
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.headline {
+    font-size: 64px;
+    font-style: medium;
+    padding-top: 25px;
+    font-family: roboto normal serif;
+    font-weight: light;
+    line-height: 75px;
+    height: 225px;
+    align-items: start;
+    padding-right:40px;
+}
