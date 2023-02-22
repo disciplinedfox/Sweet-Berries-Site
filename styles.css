@@ -109,3 +109,41 @@ border-spacing: 0;
     align-items: start;
     padding-right:40px;
 }
+
+.subtext {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 100px;
+    color: var(--text-secondary);
+    margin-top: 32px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    margin: 40px;
+    grid-gap: 40px;
+    /* display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center; */
+}
+
+.content-box {
+    width: 320px;
+    height: 244px;
+    border: 1px none;
+    background-color: var(--card);
+    border-radius: 40px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background-color: var(--accent);
+    font-size: 40px;
+    font-family: roboto normal serif;
+    font-weight: lighter;
+    padding: 40px;
+}
