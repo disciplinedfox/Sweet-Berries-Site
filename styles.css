@@ -165,6 +165,12 @@ border-spacing: 0;
     font-weight: 500px;
 }
 
+.content-box .vector {
+    position: relative;
+    left: 240px;
+
+}
+
 .banner {
     background-color: var(--accent);
     font-size: 40px;
