@@ -154,6 +154,17 @@ border-spacing: 0;
     
 }
 
+.content-box button {
+    width: 143px;
+    padding: 10px 25px 10px 25px;
+    height: 48px;
+    border-radius: 50px;
+    border: #DCDCDC solid 1px;
+    background-color: var(--card);
+    font-size: 18px;
+    font-weight: 500px;
+}
+
 .banner {
     background-color: var(--accent);
     font-size: 40px;
